@@ -1,7 +1,5 @@
 import tensorflow as tf 
 import math
-from tensorflow.python.ops import math_ops
-from tensorflow.python.framework import ops
 from six.moves import xrange
 
 def lrelu(x, leak=0.2, name="lrelu"):
